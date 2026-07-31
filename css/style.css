@@ -1,0 +1,170 @@
+* { margin:0; padding:0; } /* to remove the top and left whitespace */
+html, body { width:100%; height:100%; } /* just to be sure these are full screen*/
+canvas { display:block; width: 980px;height: 576px;} /* To remove the scrollbars */
+
+body{
+    background-color:#f2eadd;
+}
+
+#main-container{width:100%; margin:0 auto !important;background-color:#f2eadd;}
+
+canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        -khtml-user-select: none;
+        /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+        background-color:#ff7300 !important;
+        background-image:url("../img/logo.png");
+        background-position:center;
+        background-repeat:no-repeat;
+ }
+
+ #gameContainer{
+    width:980px;
+    height:576px;
+    margin:45px auto !important;
+ }
+
+ .container{
+    width:870px;
+    margin:0 auto;
+    height:100%;
+ }
+
+ header{
+    height:175px;
+    margin-bottom:25px;
+    background-image:url('../img/header_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+
+ footer{
+    font-family: "Arial", sans-serif;
+    color:white;
+    display:block;
+    height: 100%;
+    background-image:url("../img/footer_bg.png");
+    -webkit-box-sizing : border-box;‌​
+    -moz-box-sizing: border-box;
+    box-sizing : border-box;
+    background-repeat: repeat;
+    padding-bottom: 20px;
+    background-position:0% 17%;
+    background-color: #8c7160;
+ }
+
+ footer #cutted{
+    background-image:url("../img/footer_bg_top.png");
+    height: 32px;
+    background-repeat: repeat-x;
+    width:100%;
+    padding-bottom:60px;
+ }
+
+ .partners{
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    color:#3e210f;
+    display:block;
+    height:120px;
+    margin-top:20px;
+ }
+
+ .partners img{
+    float:left;
+    margin-right: 50px;
+ }
+
+ .one_half{
+    width:50%;
+   float:left;
+ }
+
+ #copyright{
+    text-align: center;
+    width:100%;
+ }
+
+ hr{
+    width:100%;
+    margin-top:30px;
+    margin-bottom:30px;
+ }
+
+ .footerText .firstLine{
+    font-size: 20px;
+ }
+
+.footerText{
+    font-size: 14px;
+    font-style: normal;
+    margin-right: 25px;
+    line-height: 160%;
+    text-align: justify;
+    visibility: hidden;
+}
+
+ .form {
+    margin-left:13px;
+    margin-right:13px;
+    visibility: hidden;
+ }
+
+ .form *{
+    width:100%;
+    margin-bottom:11px;
+ }
+
+button[type=submit] {
+    padding:10px 15px; background:#be005c; border:0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size:18px;
+}
+
+button[type=submit]:hover{
+    background:#9b004b;
+}
+
+button[type=submit]:active{
+    background:#7a003b;
+}
+
+input[type=text]{
+    font-family: "Arial", sans-serif;
+    font-size:18px;
+    color:grey;
+    padding:10px 55px; background:white; border:0 none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-box-sizing : border-box;‌​
+    -moz-box-sizing : border-box;
+    box-sizing : border-box;
+    background-image: url("../img/mail.jpg");
+    background-repeat: no-repeat;
+    background-position: 3% 50%;
+}
+
+input[type=text]:focus{
+    background-image: url("../img/mail.jpg");
+    background-repeat: no-repeat;
+    background-position: 3% 50%;
+}
+
+.vertical-container{
+    display:table;
+    height:100%;
+    float:left;
+}
+
+.vertical-centered {
+    display: table-cell;
+    vertical-align: middle;
+}
